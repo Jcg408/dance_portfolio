@@ -21,3 +21,7 @@
 #navbarLinks a:active {
         color: rgb(34, 3, 46)
 }
+button .navbar-toggler .collapsed {
+        width: 60px;
+        height: 50px;
+}
