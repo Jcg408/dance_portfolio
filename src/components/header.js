@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
   <header >
     <div className = "siteTitle" id='header'>
       <h1 > {siteTitle} </h1>
-      <h2>Choreographer</h2>
+      <h2>Coach / Choreographer</h2>
     </div>
   </header>
 

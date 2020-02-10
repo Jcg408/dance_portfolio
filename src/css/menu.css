@@ -2,10 +2,22 @@
         list-style: none;
         display: flex;
         justify-content: space-evenly;
-        font-family: Calibri, sans-serif;
-        font-size: 1.4em;
+        font-family: 'Futura', sans-serif;
         margin:auto;
         width: 100%;
-      
-     
+}
+#navbarLinks a{
+        color: rgb(9, 3, 61);
+        text-shadow: 2px 2px 2px rgb(206, 130, 236);
+        font-size: 2.2em;
+        font-weight: bold;
+}
+
+#navbarLinks a:hover {
+        color:rgb(206, 130, 236);
+        text-shadow: none;
+}
+
+#navbarLinks a:active {
+        color: rgb(34, 3, 46)
 }
