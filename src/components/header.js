@@ -1,7 +1,7 @@
 
 import PropTypes from "prop-types"
 import React from "react"
-import Navbar from "./navbar"
+import Menu from "./menu"
 import "./header.css"
 const Header = ({ siteTitle }) => (
   
@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
     <div className = "siteTitle">
       <h1> {siteTitle} </h1>
       <h2>Choreograper</h2>
-      <Navbar/>
+      <Menu/>
 
     </div>
   </header>
