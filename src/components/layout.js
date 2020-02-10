@@ -19,10 +19,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <div className="container-fluid">
       <Header siteTitle={data.site.siteMetadata.title} />
       <Menu/>
     
-      <div className="container-fluid">
+      
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, BVinson
