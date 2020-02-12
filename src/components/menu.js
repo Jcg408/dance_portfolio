@@ -7,7 +7,7 @@ const Menu = () => (
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="navbar" id='navbarLinks'>
       <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href="/bio">Bio</Nav.Link>
+      <Nav.Link href="/about">Bio</Nav.Link>
       <Nav.Link href="#link">Projects</Nav.Link>
       <Nav.Link href="#link">News</Nav.Link>
       <Nav.Link href="#link">Contact Me</Nav.Link>

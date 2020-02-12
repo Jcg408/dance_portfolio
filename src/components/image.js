@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import "../css/image.css"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -28,11 +29,14 @@ const Image = () => {
 
   return (
     <div className = "container" id='homeImage'>
-        <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+        <div className= "quote">
+           <h3> The body says what words cannot  <br></br>~ M. Graham</h3>
+    
+      
+          </div>
+          <Img fluid={data.placeholderImage.childImageSharp.fluid} />
     </div>
   )
-  
-  
 }
 
 export default Image
