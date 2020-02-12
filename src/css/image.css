@@ -1,0 +1,13 @@
+.container  {
+    position: relative;
+}
+ .quote h3, p {
+    font-style: italic;
+    color: rgb(34, 1, 65);
+    position: absolute;
+    margin-top: 6em;
+ 
+
+   
+    
+}
