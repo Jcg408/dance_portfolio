@@ -3,9 +3,10 @@
 }
  .quote h3, p {
     font-style: italic;
-    color: rgb(34, 1, 65);
+    color: rgb(26, 2, 48);
     position: absolute;
     margin-top: 6em;
+    font-size: 2em;
  
 
    

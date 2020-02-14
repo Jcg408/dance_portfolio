@@ -8,9 +8,9 @@ const Menu = () => (
     <Nav className="navbar" id='navbarLinks'>
       <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/about">Bio</Nav.Link>
-      <Nav.Link href="#link">Projects</Nav.Link>
-      <Nav.Link href="#link">News</Nav.Link>
-      <Nav.Link href="#link">Contact Me</Nav.Link>
+      <Nav.Link href="/projects">Projects</Nav.Link>
+      <Nav.Link href="/events">Events</Nav.Link>
+      
     </Nav>
     
   </Navbar.Collapse>

@@ -26,13 +26,10 @@ const Image = () => {
       }
     }
   `)
-
   return (
     <div className = "container" id='homeImage'>
         <div className= "quote">
            <h3> The body says what words cannot  <br></br>~ M. Graham</h3>
-    
-      
           </div>
           <Img fluid={data.placeholderImage.childImageSharp.fluid} />
     </div>
